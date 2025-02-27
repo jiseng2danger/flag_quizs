@@ -3,7 +3,7 @@ a.addEventListener('click', () => {
 
 
 
-    window.open('../q1/q1.html');
+    window.open('q1.html');
 
     
 })

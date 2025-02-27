@@ -17,7 +17,7 @@ q.addEventListener('click', () => {
     else if (f == 2){
         localStorage.setItem('cnt',3 )
     }
-    window.open('../q4/q4.html');
+    window.open('q4.html');
 
 })
 
@@ -33,7 +33,7 @@ w.addEventListener('click', () => {
     else if (f == 2){
         localStorage.setItem('cnt',2 )
     }
-    window.open('../q4/q4.html');
+    window.open('q4.html');
 
 
 })
@@ -50,7 +50,7 @@ e.addEventListener('click', () => {
     else if (f == 2){
         localStorage.setItem('cnt',2 )
     }
-    window.open('../q4/q4.html');
+    window.open('q4.html');
 
 
 })
@@ -67,7 +67,7 @@ r.addEventListener('click', () => {
     else if (f == 2){
         localStorage.setItem('cnt',2 )
     }
-    window.open('../q4/q4.html');
+    window.open('q4.html');
 
 
 })

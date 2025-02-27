@@ -12,7 +12,7 @@ r.addEventListener('click', () => {
     else if (f == 1){
         localStorage.setItem('cnt',2 )
     }
-    window.open('../q3/q3.html');
+    window.open('q3.html');
 
 })
 
@@ -25,7 +25,7 @@ w.addEventListener('click', () => {
     else if (f == 1){
         localStorage.setItem('cnt',1 )
     }
-    window.open('../q3/q3.html');
+    window.open('q3.html');
 
 })
 
@@ -38,7 +38,7 @@ q.addEventListener('click', () => {
     else if (f == 1){
         localStorage.setItem('cnt',1 )
     }
-    window.open('../q3/q3.html');
+    window.open('q3.html');
 
 })
 
@@ -51,6 +51,6 @@ e.addEventListener('click', () => {
     else if (f == 1){
         localStorage.setItem('cnt',1 )
     }
-    window.open('../q3/q3.html');
+    window.open('q3.html');
 
 })
