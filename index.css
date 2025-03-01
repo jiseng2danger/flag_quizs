@@ -20,7 +20,9 @@
     left: 185px;
 }
 .container{
-    position: absolute;
-    left: 500px;
-    top:250px;
+    transform: translate(50%, 50%);
+}
+body{
+    width: 50%;
+    height: 50%;
 }
