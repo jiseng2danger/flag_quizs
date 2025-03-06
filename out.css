@@ -25,3 +25,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+body{
+    width: 98vw;
+    height: 98vh;
+    background: linear-gradient(#00F260, #0575E6);
+}
