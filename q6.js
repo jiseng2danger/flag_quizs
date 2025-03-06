@@ -5,11 +5,11 @@ const r = document.querySelector('.r')
 
 f = localStorage.getItem('cnt')
 
-r.addEventListener('click', () => {
+w.addEventListener('click', () => {
 
     alert('정답')
 
-    window.open('q6.html', '_parent');
+    window.open('q7.html', '_parent');
     if (f == 0){
         localStorage.setItem('cnt',1 )
     }
@@ -25,10 +25,12 @@ r.addEventListener('click', () => {
     else if (f == 4){
         localStorage.setItem('cnt',5)
     }
-
+    else if (f == 5){
+        localStorage.setItem('cnt',6)
+    }
 })
 
-w.addEventListener('click', () => {
+r.addEventListener('click', () => {
 
     alert('틀림')
     if (f == 0){
@@ -46,7 +48,10 @@ w.addEventListener('click', () => {
     else if (f == 4){
         localStorage.setItem('cnt',4 )
     }
-    window.open('q6.html', '_parent');
+    else if (f == 5){
+        localStorage.setItem('cnt',5 )
+    }
+    window.open('q7.html', '_parent');
 
 })
 
@@ -66,8 +71,11 @@ e.addEventListener('click', () => {
     else if (f == 4){
         localStorage.setItem('cnt',4 )
     }
+    else if (f == 5){
+        localStorage.setItem('cnt',5 )
+    }
     alert('틀림')
-    window.open('q6.html', '_parent');
+    window.open('q7.html', '_parent');
 
 })
 
@@ -87,7 +95,10 @@ q.addEventListener('click', () => {
     else if (f == 4){
         localStorage.setItem('cnt',4 )
     }
+    else if (f == 5){
+        localStorage.setItem('cnt',5 )
+    }
     alert('틀림')
-    window.open('q6.html', '_parent');
+    window.open('q7.html', '_parent');
 
 })
