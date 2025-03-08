@@ -4,11 +4,11 @@ const e = document.querySelector('.e')
 const r = document.querySelector('.r')
 
 f = localStorage.getItem('cnt')
-r.addEventListener('click', () => {
+w.addEventListener('click', () => {
 
     alert('정답')
 
-    window.open('q11.html', '_parent');
+    window.open('q14.html', '_parent');
     if (f == 0){
         localStorage.setItem('cnt',1 )
     }
@@ -43,49 +43,23 @@ r.addEventListener('click', () => {
         localStorage.setItem('cnt',10)
         
     }
-})
-
-q.addEventListener('click', () => {
-
-    alert('틀림')
-    if (f == 0){
-        localStorage.setItem('cnt',0 )
-    }
-    else if (f == 1){
-        localStorage.setItem('cnt',1 )
-    }
-    else if (f == 2){
-        localStorage.setItem('cnt',2 )
-    }
-    else if (f == 3){
-        localStorage.setItem('cnt',3 )
-    }
-    else if (f == 4){
-        localStorage.setItem('cnt',4 )
-    }
-    else if (f == 5){
-        localStorage.setItem('cnt',5 )
-    }
-    else if (f == 6){
-        localStorage.setItem('cnt',6 )
-    }
-    else if (f == 7){
-        localStorage.setItem('cnt',7)
+    else if (f == 10 ){
+        localStorage.setItem('cnt',11)
         
     }
-    else if (f == 8){
-        localStorage.setItem('cnt',8)
+    else if (f == 11 ){
+        localStorage.setItem('cnt',12)
         
     }
-    else if (f == 9){
-        localStorage.setItem('cnt',9)
+    else if (f == 12 ){
+        localStorage.setItem('cnt',13)
         
     }
-    window.open('q11.html', '_parent');
-
 })
 
 e.addEventListener('click', () => {
+
+    alert('틀림')
     if (f == 0){
         localStorage.setItem('cnt',0 )
     }
@@ -114,18 +88,80 @@ e.addEventListener('click', () => {
     else if (f == 8){
         localStorage.setItem('cnt',8)
         
-        
     }
     else if (f == 9){
         localStorage.setItem('cnt',9)
         
     }
-    alert('틀림')
-    window.open('q11.html', '_parent');
+    else if (f == 10){
+        localStorage.setItem('cnt',10)
+        
+    }
+    else if (f == 11){
+        localStorage.setItem('cnt',11)
+        
+    }
+    else if (f == 12){
+        localStorage.setItem('cnt',12)
+        
+    }
+    window.open('q14.html', '_parent');
 
 })
 
-w.addEventListener('click', () => {
+r.addEventListener('click', () => {
+    if (f == 0){
+        localStorage.setItem('cnt',0 )
+    }
+    else if (f == 1){
+        localStorage.setItem('cnt',1 )
+    }
+    else if (f == 2){
+        localStorage.setItem('cnt',2 )
+    }
+    else if (f == 3){
+        localStorage.setItem('cnt',3 )
+    }
+    else if (f == 4){
+        localStorage.setItem('cnt',4 )
+    }
+    else if (f == 5){
+        localStorage.setItem('cnt',5 )
+    }
+    else if (f == 6){
+        localStorage.setItem('cnt',6 )
+    }
+    else if (f == 7){
+        localStorage.setItem('cnt',7)
+        
+    }
+    else if (f == 8){
+        localStorage.setItem('cnt',8)
+        
+        
+    }
+    else if (f == 9){
+        localStorage.setItem('cnt',9)
+        
+    }
+    else if (f == 10){
+        localStorage.setItem('cnt',10)
+        
+    }
+    else if (f == 11){
+        localStorage.setItem('cnt',11)
+        
+    }
+    else if (f == 12){
+        localStorage.setItem('cnt',12)
+        
+    }
+    alert('틀림')
+    window.open('q14.html', '_parent');
+
+})
+
+q.addEventListener('click', () => {
     if (f == 0){
         localStorage.setItem('cnt',0 )
     }
@@ -159,7 +195,19 @@ w.addEventListener('click', () => {
         localStorage.setItem('cnt',9)
         
     }
+    else if (f == 10){
+        localStorage.setItem('cnt',10)
+        
+    }
+    else if (f == 11){
+        localStorage.setItem('cnt',11)
+        
+    }
+    else if (f == 12){
+        localStorage.setItem('cnt',12)
+        
+    }
     alert('틀림')
-    window.open('q11.html', '_parent');
+    window.open('q14.html', '_parent');
 
 })

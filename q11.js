@@ -8,7 +8,7 @@ e.addEventListener('click', () => {
 
     alert('정답')
 
-    window.open('q10.html', '_parent');
+    window.open('q12.html', '_parent');
     if (f == 0){
         localStorage.setItem('cnt',1 )
     }
@@ -89,7 +89,7 @@ q.addEventListener('click', () => {
         localStorage.setItem('cnt',10)
         
     }
-    window.open('q10.html', '_parent');
+    window.open('q12.html', '_parent');
 
 })
 
@@ -133,7 +133,7 @@ r.addEventListener('click', () => {
         
     }
     alert('틀림')
-    window.open('q10.html', '_parent');
+    window.open('q12.html', '_parent');
 
 })
 
@@ -176,6 +176,6 @@ w.addEventListener('click', () => {
         
     }
     alert('틀림')
-    window.open('q10.html', '_parent');
+    window.open('q12.html', '_parent');
 
 })

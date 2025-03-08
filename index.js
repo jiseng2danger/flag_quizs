@@ -1,4 +1,4 @@
-const a = document.querySelector('.q')
+const a = document.querySelector('.n')
 a.addEventListener('click', () => {
 
 
