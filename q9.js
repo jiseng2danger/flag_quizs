@@ -9,7 +9,7 @@ q.addEventListener('click', () => {
 
     alert('정답')
 
-    window.open('q9.html', '_parent');
+    window.open('q10.html', '_parent');
     if (f == 0){
         localStorage.setItem('cnt',1 )
     }
@@ -34,6 +34,10 @@ q.addEventListener('click', () => {
     }
     else if (f == 7){
         localStorage.setItem('cnt',8)
+        
+    }
+    else if (f == 8 ){
+        localStorage.setItem('cnt',9)
         
     }
 })
@@ -66,7 +70,11 @@ r.addEventListener('click', () => {
         localStorage.setItem('cnt',7)
         
     }
-    window.open('q9.html', '_parent');
+    else if (f == 8){
+        localStorage.setItem('cnt',8)
+        
+    }
+    window.open('q10.html', '_parent');
 
 })
 
@@ -96,8 +104,12 @@ e.addEventListener('click', () => {
         localStorage.setItem('cnt',7)
         
     }
+    else if (f == 8){
+        localStorage.setItem('cnt',8)
+        
+    }
     alert('틀림')
-    window.open('q9.html', '_parent');
+    window.open('q10.html', '_parent');
 
 })
 
@@ -127,7 +139,11 @@ w.addEventListener('click', () => {
         localStorage.setItem('cnt',7)
         
     }
+    else if (f == 8){
+        localStorage.setItem('cnt',8)
+        
+    }
     alert('틀림')
-    window.open('q9.html', '_parent');
+    window.open('q10.html', '_parent');
 
 })
